@@ -1,0 +1,19 @@
+server:
+  port: 0
+
+synerzip:
+  user:
+    bu: BU-6
+---
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/user-mgmt
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  application:
+    name: user-service
