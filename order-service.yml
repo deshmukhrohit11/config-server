@@ -16,4 +16,4 @@ spring:
     hibernate:
       ddl-auto: create
   application:
-    name: user-service
+    name: order-service
