@@ -14,6 +14,6 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
     hibernate:
-      ddl-auto: udpate
+      ddl-auto: create
   application:
     name: order-service
